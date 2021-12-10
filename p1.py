@@ -1,0 +1,23 @@
+i=1
+a=1
+b=2
+str1=""
+while(i<=3):
+    j=1
+    while(j<=1):
+        str1+=str(a)
+        j=j+1
+    str1+="\n"
+    k=2
+    while(k>=1):
+        str1+=str(b)
+        k=k-1
+        b=b+1
+    str1+="\n"
+    if(i==3):
+        str1+="10"
+    i=i+1
+    a=a+3
+    b=b+1
+print(str1)
+#python pattern program
